@@ -22,7 +22,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Breeds" component={BreedsStack} />
+        <Tab.Screen name="Dog API-fetcher" component={BreedsStack} />
         <Tab.Screen name="About" component={AboutScreen} />
       </Tab.Navigator>
     </NavigationContainer>
